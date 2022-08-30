@@ -1,0 +1,28 @@
+<a id="connectionId"></a>
+<section class="my-card-wrapper" fxLayout="row" fxLayoutAlign="center center">
+    <mat-card class="box">
+        <mat-card-header style="margin-bottom: 1rem;">
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>{{'contacts' | translate }}</mat-card-title>
+        </mat-card-header>
+        <div #mapElement id="map" class="map"></div>
+        <mat-card-content>
+            <h3>Székhely- és postacím:</h3>
+            <p>DigiTerra Informatikai Szolgáltató Kft.</p>
+            <p>H-1025 Budapest Pitypang u. 11.</p>
+            <p>Telefon: +36/30-959-9955, (hétfőtől csütörtökig 9-17:00 óra között, illetve
+                pénteken 9-14 óra között)</p>
+            <p>E-mail: info@digiterra.hu</p>
+            <p>Adószám: 13051013-2-41</p>
+            <p>Cégjegyzékszám: 01-09-716341</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <!--
+        <button mat-raised-button color="accent" (click)="updateData()">{{'updateButton' | translate }}</button>
+        -->
+        </mat-card-actions>
+        <mat-card-footer>
+            <p>{{'updateTime' | translate }}: {{updateTimeVar | date: 'yyy-MM-dd h:mm:ss a '}}</p>
+        </mat-card-footer>
+    </mat-card>
+</section>

@@ -1,0 +1,70 @@
+{
+  "productPackages": [
+    {
+      "productId": 1,
+      "name": "DigiTerra Explorer 7 Basic",
+      "applications": [
+        {
+          "title": "Mezőgazdaság",
+          "description": "Területmérés támogatási kérelmekhez 2500 feletti mezőgazdász felhasználó, Magyarország",
+          "image": "/assets/images/mezogazd.jpg"
+        },
+        {
+          "title": "Erdészet",
+          "description": "Viharkár felmérése az érintett erdőréletekben 110 erdész, Stájerország, Ausztria",
+          "image": "/assets/images/erdeszet.jpg"
+        },
+        {
+          "title": "Közművek",
+          "description": "Víz- és szennyvízhálózatok digitális térképeinek frissítése 50 felmérő, Antalya, Törökország",
+          "image": "/assets/images/kozmu.jpg"
+        },
+        {
+          "title": "Terepi adatgyűjtés",
+          "description": "Források térképezése 70 felügyelő, Lengyel Egészségügyi Minisztérium",
+          "image": "/assets/images/terepiadatgy.jpg"
+        },
+        {
+          "title": "Régészet",
+          "description": "Dinoszaurusz csontvázak kutatása 5 paleontológus, Portugália",
+          "image": "/assets/images/regeszet.jpg"
+        },
+        {
+          "title": "Környezet- és természetvédelem",
+          "description": "Védett növények felmérése és katalogizálása 30 botanikus, National Trust, Egyesült Királyság",
+          "image": "/assets/images/termved.jpg"
+        },
+        {
+          "title": "Hatóságok",
+          "description": "Parlagfűvel fertőzött területek felmérése 450 hivatalnok, Magyar Mezőgazdasági és Vidékfejlesztési Minisztérium",
+          "image": "/assets/images/hatosag.jpg"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Adat előkészítés",
+          "description": "Adatok importálása GIS rendszerből: Online háttértérkép szolgáltatás (WMS, TMS), például Google Maps, Offline térképforrások (számos raszteres és vektoros formátum), Felhasználó által megadott adatbeviteli űrlapok, kódszótárak, adattábla és térképsablonok, Programozás nélkül is testreszabható",
+          "image": "/assets/images/laptop400-300x199.jpg"
+        },
+        {
+          "title": "Adatgyűjtés és karbantartás",
+          "description": "Többféle mobil GIS/GPS eszközzel: GPS/GNSS vevők (2-5 méteres, szubméteres, deciméteres vagy centiméteres pontosság) helymeghatározásra és navigációra Integrált külső szenzorok (lézeres távmérők, fényképezőgépek, kábelkeresők) Gyors és egyszerű adatbevitel",
+          "image": "/assets/images/adatgyujtes400-300x199.jpg"
+        },
+        {
+          "title": "Adatfrissítés és publikálás",
+          "description": "GIS adatbázis frissítése Adatok exportja: GIS rendszerek vagy Google Earth Térképnyomtatás, jelentések készítése, Microsoft Excel export Adatok megosztása az interneten Dropbox támogatás",
+          "image": "/assets/images/upload400-300x199.jpg"
+        }
+      ],
+      "grossOrNet": "Nettó",
+      "price": 36830,
+      "currency":"Forint",
+      "image": "/assets/images/exp_meres2.png",
+      "description":"A DigiTerra Explorer a térinformatikai adatgyűjtés és feldolgozás hatékony és megbízható terepi és irodai szoftvere.",
+      "specification": "Nincs többé szükség hagyományos papír térképekre, tájolóra, mérőszalagra, terepi adatlapok kitöltésére, hiszen segítségével nagymennyiségű digitális térképi és leíró adatot vihetünk terepre. A szoftver az egyszerűbb térinformatikai eszközökkel támogatott feladatok gyors elvégzésére fókuszál, és lehetőséget biztosít a terepen földrajzi adatok rögzítésére, elemzésére és leíró adataik megjelenítésére.",
+      "language": "magyar",
+      "other": {}
+    }
+  ]
+}

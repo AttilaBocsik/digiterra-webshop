@@ -1,0 +1,9 @@
+{
+    "module": "commonjs",
+    "target": "es5",
+    "out": "./docs",
+    "name": "dt-webshop",
+    "tsconfig": "tsconfig.json",
+    "ignoreCompilerErrors": true,
+    "excludeExternals": true
+}

@@ -1,0 +1,35 @@
+<mat-toolbar color="primary">
+    <div fxHide.gt-xs>
+      <button mat-icon-button (click)="onToggleSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+    <div fxFlex fxLayout fxLayoutAlign="start" fxHide.xs>
+      <ul fxLayout fxLayoutGap="20px" class="navigation-items">
+        <li>
+          <a href="#connectionId">{{'connectionPage' | translate }}</a>
+        </li>
+          <!--
+        <li>
+          <a routerLink="/home">{{'homePage' | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/about">{{'aboutPage' | translate }}</a>
+        </li>
+        
+        -->
+      </ul>
+    </div>
+    <div class="customMarginLeft">
+      <mat-form-field class="item-margin">
+        <mat-select [(ngModel)]="selectedValue" (ngModelChange)="switchLang(selectedLang.value)" #selectedLang>
+          <mat-option *ngFor="let language of translate.getLangs()" [value]="language"
+            [selected]="language === translate.currentLang">{{ language }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="customMarginLeft">
+      <img class="imgLi" src="/assets/images/shopping-cart-icon.png" alt="cart" />
+      <span class="badge" *ngIf="cart.length > 0">{{ cart.length }}</span>
+    </div>
+  </mat-toolbar>
